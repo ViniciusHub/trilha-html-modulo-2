@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: white;
 }
 .main {
     display: flex;
@@ -24,8 +24,9 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    display: flex;
     min-height: 150px;
+    height: max-content;
 }
 .content {
     background-color: white;
@@ -33,6 +34,6 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(191, 186, 211);
     min-height: 150px;
 }
